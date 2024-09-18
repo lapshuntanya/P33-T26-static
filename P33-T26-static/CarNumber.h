@@ -12,7 +12,6 @@ class CarNumber
     string number;
 public:
     CarNumber();
-
     string getNumber()const;
 
     static int getCounter();
