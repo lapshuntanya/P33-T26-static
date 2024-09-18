@@ -1,12 +1,12 @@
 #include "CarNumber.h"
 
-int CarNumber::counter = 0;
+int CarNumber::counter = 9995;
 char CarNumber::firstLetter = 'A';
-char CarNumber::secondLetter = 'A';
+char CarNumber::secondLetter = 'Z';
 
 int main()
 {
-    CarNumber arr[5]; // 0001AA 0002AA 0003AA 0004AA 0005AA
+    CarNumber arr[15]; // 0001AA 0002AA 0003AA 0004AA 0005AA
     // 5 A A
 
     for (CarNumber item : arr) {

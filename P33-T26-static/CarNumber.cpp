@@ -11,9 +11,9 @@ CarNumber::CarNumber()
             firstLetter++;
         }
     }
-
+    //               0 0 0 1
     number = to_string(counter / 1000) + to_string(counter / 100 % 10) +
-        to_string(counter / 10 % 10) + to_string(counter + 10)
+        to_string(counter / 10 % 10) + to_string(counter % 10)
         + firstLetter + secondLetter;
 }
 
